@@ -119,7 +119,6 @@ class _CreateCommunityFormState extends State<CreateCommunityForm> {
               //   },
               // ),
               // SizedBox(height: 20.0),
-
               ElevatedButton(
                 onPressed: () {
                   _postRequest(Uri.parse("http://192.168.1.11:3000/create_community"), [_name, _id, _affliation]);
